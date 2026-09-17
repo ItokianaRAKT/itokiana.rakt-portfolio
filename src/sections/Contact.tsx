@@ -1,7 +1,6 @@
 import { Globe, GitBranch, Mail } from 'lucide-react'
 import { motion } from 'motion/react'
 import { SectionLabel } from '../components/SectionLabel'
-import { ContactForm } from '../components/ContactForm'
 
 const socialLinks = [
   { icon: Globe, label: 'LINKEDIN', href: 'https://www.linkedin.com/in/itokiana-rakotoarivelo-281726374', value: 'linkedin.com/in/itokiana-rakotoarivelo' },
@@ -15,7 +14,7 @@ export function Contact() {
       <div className="mx-auto max-w-360 px-6 py-16 md:px-11 md:py-24">
         <SectionLabel number="08" label="CONTACT" />
 
-        <div className="grid gap-12 md:grid-cols-3 md:gap-12">
+        <div className="grid gap-12 md:grid-cols-2 md:gap-12">
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -43,7 +42,7 @@ export function Contact() {
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <ul className="space-y-6">
+            <ul className="mt-6 space-y-6">
               {socialLinks.map(link => {
                 const Icon = link.icon
                 return (
@@ -68,15 +67,6 @@ export function Contact() {
                 )
               })}
             </ul>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            <ContactForm />
           </motion.div>
         </div>
       </div>
