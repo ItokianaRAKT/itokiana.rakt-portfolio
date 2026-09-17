@@ -41,8 +41,9 @@ export function Contact() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.5, delay: 0.1 }}
+            className="pt-[44px] md:pt-[50px]"
           >
-            <ul className="mt-6 space-y-6">
+            <ul className="space-y-6">
               {socialLinks.map(link => {
                 const Icon = link.icon
                 return (
