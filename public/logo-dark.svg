@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 40" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="8" x2="28" y2="34" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <path d="M11 10L4 20l7 10" stroke="url(#grad)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="14" cy="20" r="1.5" fill="url(#grad)"/>
+  <path d="M23 10l7 10-7 10" stroke="url(#grad)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="42" y="24.5" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="600" letter-spacing="0.12em" fill="#F2F2F2">R.I.T</text>
+</svg>

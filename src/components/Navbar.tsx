@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import { motion, AnimatePresence } from 'motion/react'
 import { ThemeToggle } from './ThemeToggle'
+import { useTheme } from '../context/ThemeContext'
 
 const NAV_LINKS = [
   { href: '#home', label: 'ACCUEIL' },
@@ -14,6 +15,7 @@ const NAV_LINKS = [
 const SECTION_IDS = NAV_LINKS.map(link => link.href.slice(1))
 
 export function Navbar() {
+  const { theme } = useTheme()
   const [activeSection, setActiveSection] = useState('home')
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   useEffect(() => {
@@ -54,11 +56,12 @@ export function Navbar() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-border-light bg-background-light/80 backdrop-blur-sm dark:border-border-dark dark:bg-background-dark/80">
       <div className="mx-auto flex h-12 max-w-[1440px] items-center justify-between px-6 md:px-11">
-        <a
-          href="#home"
-          className="text-[16px] font-semibold uppercase tracking-widest text-text-primary-light dark:text-text-primary-dark"
-        >
-          R.I.T
+        <a href="#home" className="block h-8 w-[120px] shrink-0">
+          <img
+            src={theme === 'dark' ? '/logo-dark.svg' : '/logo-light.svg'}
+            alt="R.I.T"
+            className="h-full w-full object-contain"
+          />
         </a>
 
         <nav aria-label="Navigation principale" className="hidden items-center gap-8 md:flex">
