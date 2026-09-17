@@ -50,5 +50,6 @@ export const projects: Project[] = [
     description: 'Petits projets, POC, et expérimentations.',
     stack: [],
     image: '/github.png',
+    href: 'https://github.com/ItokianaRAKT',
   },
 ]

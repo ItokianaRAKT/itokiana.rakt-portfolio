@@ -102,7 +102,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
         <div className="flex items-center gap-1 text-[14px] text-text-secondary-light transition-colors group-hover:text-primary-light dark:text-text-secondary-dark dark:group-hover:text-primary-dark">
           {project.id === 'others' ? (
-            <span>Voir plus</span>
+            <span>Voir sur GitHub</span>
           ) : (
             <span>Consulter</span>
           )}
