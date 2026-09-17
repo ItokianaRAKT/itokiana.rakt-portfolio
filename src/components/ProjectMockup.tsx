@@ -6,9 +6,6 @@ export function ProjectMockup() {
   const bgColor = theme === 'dark' ? '#111415' : '#F5F5F3'
   const screenColor = theme === 'dark' ? '#1a1d1e' : '#ffffff'
   const borderColor = theme === 'dark' ? '#292D2D' : '#E2E2E0'
-  const accentColor = theme === 'dark' ? '#8BAF36' : '#6D3DF5'
-  const textMuted = theme === 'dark' ? '#9A9D9C' : '#666666'
-
   return (
     <div className="relative w-full max-w-[600px]" aria-hidden="true">
       <svg viewBox="0 0 650 420" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
