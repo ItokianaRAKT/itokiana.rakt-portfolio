@@ -33,6 +33,7 @@ export const projects: Project[] = [
     title: 'EXAM HUB',
     description: "Plateforme d'examens en ligne par QCM.",
     stack: ['React', 'TypeScript', 'Express', 'PostgreSQL'],
+    image: '/exam-hub.png',
   },
   {
     id: 'over-the-wire',
@@ -40,6 +41,7 @@ export const projects: Project[] = [
     title: 'OVER THE WIRE',
     description: 'Write-up des challenges Linux et sécurité des niveaux Bandit.',
     stack: ['Linux', 'Bash', 'SSH'],
+    image: '/owt.png',
   },
   {
     id: 'others',
@@ -47,5 +49,7 @@ export const projects: Project[] = [
     title: 'AUTRES PROJETS',
     description: 'Petits projets, POC, et expérimentations.',
     stack: [],
+    image: '/github.png',
+    href: 'https://github.com/ItokianaRAKT',
   },
 ]
