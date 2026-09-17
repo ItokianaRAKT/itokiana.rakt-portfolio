@@ -62,7 +62,10 @@ export function MainProject() {
               </div>
             </div>
 
-            <Button href="https://github.com/ItokianaRAKT/anti-gaspillage">Explorer le projet</Button>
+            <div className="flex items-center gap-3">
+              <Button href="https://anti-gaspillage.vercel.app/">Voir la démo</Button>
+              <Button href="https://github.com/ItokianaRAKT/anti-gaspillage">Explorer le code</Button>
+            </div>
           </motion.div>
 
           <motion.div
