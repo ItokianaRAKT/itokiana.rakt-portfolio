@@ -6,7 +6,7 @@ import { principles } from '../data/principles'
 export function About() {
   return (
     <section id="about" aria-labelledby="about-title" className="border-t border-border-light dark:border-border-dark">
-      <div className="mx-auto max-w-[1440px] px-6 py-16 md:px-11 md:py-24">
+      <div className="mx-auto px-6 py-16 md:px-11 md:py-24">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -45,12 +45,9 @@ export function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-100px' }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="mt-6 max-w-[420px] space-y-4 text-[13px] leading-[1.7] text-text-secondary-light dark:text-text-secondary-dark md:text-[14px]"
+              className="max-w-105 space-y-4 text-[13px] leading-[1.7] text-text-secondary-light dark:text-text-secondary-dark md:text-[14px]"
             >
-              <p>
-                Étudiante en informatique, je cherche à comprendre les systèmes
-                avant de les mettre en place.
-              </p>
+
               <p>
                 J'aime aller au-delà de l'interface pour comprendre ce qui se
                 passe derrière : logique applicative, données, API, infrastructure

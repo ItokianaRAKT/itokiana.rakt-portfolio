@@ -12,7 +12,7 @@ const socialLinks = [
 export function Contact() {
   return (
     <section id="contact" className="border-t border-border-light dark:border-border-dark">
-      <div className="mx-auto max-w-[1440px] px-6 py-16 md:px-11 md:py-24">
+      <div className="mx-auto max-w-360 px-6 py-16 md:px-11 md:py-24">
         <SectionLabel number="08" label="CONTACT" />
 
         <div className="grid gap-12 md:grid-cols-3 md:gap-12">
@@ -33,7 +33,7 @@ export function Contact() {
               une discussion ?
               <br />
               <br />
-              Écrivons-nous.
+              N'hésitez pas
             </p>
           </motion.div>
 
