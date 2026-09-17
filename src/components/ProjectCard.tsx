@@ -15,7 +15,13 @@ export function ProjectCard({ project }: ProjectCardProps) {
   const borderColor = theme === 'dark' ? '#292D2D' : '#E2E2E0'
   const accentColor = theme === 'dark' ? '#8B5CF6' : '#6D3DF5'
 
+  const Wrapper = project.href ? 'a' : 'div'
+
   return (
+    <Wrapper
+      {...(project.href ? { href: project.href, target: '_blank', rel: 'noopener noreferrer' } : {})}
+      className="block"
+    >
     <motion.article
       whileHover={{ y: -3 }}
       transition={{ duration: 0.2 }}
@@ -110,5 +116,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </div>
       </div>
     </motion.article>
+    </Wrapper>
   )
 }
