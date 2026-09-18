@@ -4,8 +4,8 @@ import { SectionLabel } from '../components/SectionLabel'
 
 const socialLinks = [
   { icon: Globe, label: 'LINKEDIN', href: 'https://www.linkedin.com/in/itokiana-rakotoarivelo-281726374', value: 'linkedin.com/in/itokiana-rakotoarivelo' },
-  { icon: GitBranch, label: 'GITHUB', href: 'https://github.com/ItokianaRAKT', value: 'github.com/ItokianaRAKT' },
   { icon: Mail, label: 'EMAIL', href: 'mailto:itokianarakt@gmail.com', value: 'itokianarakt@gmail.com' },
+  { icon: GitBranch, label: 'GITHUB', href: 'https://github.com/ItokianaRAKT', value: 'github.com/ItokianaRAKT' },
 ]
 
 export function Contact() {
@@ -24,7 +24,7 @@ export function Contact() {
             <h2 className="mb-4 text-[28px] font-medium uppercase tracking-tight text-text-primary-light dark:text-text-primary-dark md:text-[34px]">
               Contactez-moi.
             </h2>
-            <p className="max-w-[200px] text-[16px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
+            <p className="text-[16px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
               Un projet, une opportunité,
               <br />
               une idée ou simplement
@@ -32,7 +32,7 @@ export function Contact() {
               une discussion ?
               <br />
               <br />
-              N'hésitez pas
+              N'hésitez pas.
             </p>
           </motion.div>
 
