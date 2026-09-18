@@ -7,6 +7,7 @@ import { useTheme } from '../context/ThemeContext'
 const NAV_LINKS = [
   { href: '#home', label: 'ACCUEIL' },
   { href: '#about', label: 'À PROPOS' },
+  { href: '#experience', label: 'EXPÉRIENCE' },
   { href: '#project', label: 'PROJETS' },
   { href: '#skills', label: 'COMPÉTENCES & OUTILS' },
   { href: '#contact', label: 'CONTACT' },
