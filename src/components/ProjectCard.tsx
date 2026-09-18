@@ -106,14 +106,16 @@ export function ProjectCard({ project }: ProjectCardProps) {
           </p>
         )}
 
-        <div className="flex items-center gap-1 text-[14px] text-text-secondary-light transition-colors group-hover:text-primary-light dark:text-text-secondary-dark dark:group-hover:text-primary-dark">
-          {project.id === 'others' ? (
-            <span>Voir sur GitHub</span>
-          ) : (
-            <span>Consulter</span>
-          )}
-          <ArrowRight className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-0.5" />
-        </div>
+        {project.href && (
+          <div className="flex items-center gap-1 text-[14px] text-text-secondary-light transition-colors group-hover:text-primary-light dark:text-text-secondary-dark dark:group-hover:text-primary-dark">
+            {project.id === 'others' ? (
+              <span>Voir sur GitHub</span>
+            ) : (
+              <span>Consulter</span>
+            )}
+            <ArrowRight className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-0.5" />
+          </div>
+        )}
       </div>
     </motion.article>
     </Wrapper>

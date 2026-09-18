@@ -11,24 +11,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'capsule',
-    number: '02',
-    title: 'CAPSULE',
-    description: 'Capsules temporelles numériques.',
-    stack: ['React', 'TypeScript', 'Spring Boot', 'PostgreSQL'],
-    image: '/capsule.png',
-  },
-  {
     id: 'exam-hub',
-    number: '03',
+    number: '01',
     title: 'EXAM HUB',
     description: "Plateforme d'examens en ligne par QCM.",
     stack: ['React', 'TypeScript', 'Express', 'PostgreSQL'],
     image: '/exam-hub.png',
+    href: 'https://github.com/Anonymat-HS/Exam-Hub-frontend.git',
   },
   {
     id: 'genespec',
-    number: '04',
+    number: '02',
     title: 'GENESPEC',
     description: "Générateur qui automatise la rédaction de spécifications d'API.",
     stack: ['React', 'TypeScript', 'OpenAI'],
@@ -36,8 +29,16 @@ export const projects: Project[] = [
     href: 'https://genespec.vercel.app/',
   },
   {
+    id: 'capsule',
+    number: '03',
+    title: 'CAPSULE',
+    description: 'Capsules temporelles numériques.',
+    stack: ['React', 'TypeScript', 'Spring Boot', 'PostgreSQL'],
+    image: '/capsule.png',
+  },
+  {
     id: 'over-the-wire',
-    number: '05',
+    number: '04',
     title: 'OVER THE WIRE',
     description: 'Write-up des challenges Linux et sécurité des niveaux Bandit.',
     stack: ['Linux', 'Bash', 'SSH'],
@@ -45,7 +46,7 @@ export const projects: Project[] = [
   },
   {
     id: 'others',
-    number: '06',
+    number: '05',
     title: 'AUTRES PROJETS',
     description: 'Petits projets, POC, et expérimentations.',
     stack: [],
