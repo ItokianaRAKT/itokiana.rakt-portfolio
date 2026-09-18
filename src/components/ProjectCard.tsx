@@ -93,21 +93,21 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <span className="mb-1 text-[12px] text-text-secondary-light dark:text-text-secondary-dark">
           {project.number}
         </span>
-        <h3 className="mb-1 text-[16px] font-semibold uppercase tracking-wider text-text-primary-light dark:text-text-primary-dark">
+        <h3 className="mb-1 text-[18px] font-semibold uppercase tracking-wider text-text-primary-light dark:text-text-primary-dark">
           {project.title}
         </h3>
-        <p className="mb-3 flex-1 text-[14px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
+        <p className="mb-3 flex-1 text-[16px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
           {project.description}
         </p>
 
         {project.stack.length > 0 && (
-          <p className="mb-3 text-[12px] text-text-secondary-light dark:text-text-secondary-dark">
+          <p className="mb-3 text-[16px] text-text-secondary-light dark:text-text-secondary-dark">
             {project.stack.join(' · ')}
           </p>
         )}
 
         {project.href && (
-          <div className="flex items-center gap-1 text-[14px] text-text-secondary-light transition-colors group-hover:text-primary-light dark:text-text-secondary-dark dark:group-hover:text-primary-dark">
+          <div className="flex items-center gap-1 text-[16px] text-text-secondary-light transition-colors group-hover:text-primary-light dark:text-text-secondary-dark dark:group-hover:text-primary-dark">
             {project.id === 'others' ? (
               <span>Voir sur GitHub</span>
             ) : (

@@ -13,7 +13,7 @@ export function Experience() {
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 0.5 }}
         >
-          <SectionLabel number="03" label="EXPÉRIENCE" />
+          <SectionLabel number="03" label="EXPÉRIENCES" />
         </motion.div>
 
         <div className="grid gap-12 md:grid-cols-[1fr_1.5fr] md:gap-16">

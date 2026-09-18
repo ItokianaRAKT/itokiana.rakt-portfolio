@@ -20,7 +20,7 @@ export function SkillCard({ skill }: SkillCardProps) {
         aria-hidden="true"
       />
 
-      <h3 className="mb-3 text-[12px] font-semibold uppercase tracking-wider text-text-primary-light dark:text-text-primary-dark">
+      <h3 className="mb-3 text-[18px] font-semibold uppercase tracking-wider text-text-primary-light dark:text-text-primary-dark">
         {skill.title}
       </h3>
 
@@ -28,7 +28,7 @@ export function SkillCard({ skill }: SkillCardProps) {
         {skill.items.map(item => (
           <li
             key={item}
-            className="flex items-center gap-1.5 text-[11px] text-text-secondary-light dark:text-text-secondary-dark"
+            className="flex items-center gap-1.5 text-[16px] text-text-secondary-light dark:text-text-secondary-dark"
           >
             <ChevronRight className="h-3 w-3 shrink-0 text-primary-light dark:text-primary-dark" />
             {item}
