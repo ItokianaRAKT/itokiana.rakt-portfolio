@@ -10,17 +10,17 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    id: 'stdhub',
-    company: 'STDHUB',
-    role: 'Développement logiciel',
-    period: 'avril 2026 — aujourd\'hui',
-    logo: '/stdhub.png',
+    id: 'aucta',
+    company: 'Aucta',
+    role: 'Fondatrice',
+    period: 'septembre 2026 — aujourd\'hui',
+    logo: '/aucta.png',
     description:
-      'Participation au développement et à la maintenance d\'une plateforme interne de HEI, au sein d\'une équipe de développement.',
+      'Création et développement d\'une initiative entrepreneuriale destinée à explorer la prestation de services dans le domaine de l\'IT.',
     highlights: [
-      'Contribution au développement et à la maintenance de la plateforme',
-      'Travail en équipe sur une base de code existante',
-      'Introduction d\'un nouveau rôle utilisateur au sein de la plateforme',
+      'Création de l\'initiative et définition de son positionnement',
+      'Réflexion autour des services et de son développement futur',
+      'Construction progressive de son identité et de sa présence',
     ],
   },
   {
@@ -38,17 +38,17 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    id: 'aucta',
-    company: 'Aucta',
-    role: 'Fondatrice',
-    period: 'septembre 2026 — aujourd\'hui',
-    logo: '/aucta.png',
+    id: 'stdhub',
+    company: 'STDHUB',
+    role: 'Développeuse backend',
+    period: 'avril 2026 — aujourd\'hui',
+    logo: '/stdhub.png',
     description:
-      'Création et développement d\'une initiative entrepreneuriale destinée à explorer la prestation de services dans le domaine de l\'IT.',
+      'Participation au développement et à la maintenance d\'une plateforme interne de HEI, au sein d\'une équipe de développement.',
     highlights: [
-      'Création de l\'initiative et définition de son positionnement',
-      'Réflexion autour des services et de son développement futur',
-      'Construction progressive de son identité et de sa présence',
+      'Contribution au développement et à la maintenance de la plateforme',
+      'Travail en équipe sur une base de code existante',
+      'Introduction d\'un nouveau rôle utilisateur au sein de la plateforme',
     ],
   },
 ]
