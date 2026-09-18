@@ -1,4 +1,4 @@
-import { ArrowDown, MapPin, Calendar } from 'lucide-react'
+import { ArrowDown, MapPin, Calendar, ExternalLink } from 'lucide-react'
 import { motion } from 'motion/react'
 import { SectionLabel } from '../components/SectionLabel'
 import { Button } from '../components/Button'
@@ -64,8 +64,11 @@ export function Hero() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.8 }}
-            className="mt-8"
+            className="mt-8 flex items-center gap-4"
           >
+            <Button href="/CV_Itokiana_Tsiorisoa_Rakotoarivelo.pdf" target="_blank" icon={<ExternalLink className="h-3.5 w-3.5" />}>
+              Voir mon CV
+            </Button>
             <Button href="#projects" icon={<ArrowDown className="h-3.5 w-3.5" />}>
               Découvrir mon travail
             </Button>
