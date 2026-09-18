@@ -22,14 +22,14 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
           </div>
         )}
         <div className="min-w-0 flex-1">
-          <p className="truncate text-[24px] font-semibold text-text-primary-light dark:text-text-primary-dark">
+          <p className="truncate text-[20px] font-semibold text-text-primary-light dark:text-text-primary-dark">
             {experience.company}
           </p>
           <p className="text-[18px] text-text-secondary-light dark:text-text-secondary-dark">
             {experience.role}
           </p>
         </div>
-        <span className="shrink-0 text-[18px] text-text-secondary-light dark:text-text-secondary-dark">
+        <span className="shrink-0 text-[16px] text-text-secondary-light dark:text-text-secondary-dark">
           {experience.period}
         </span>
       </div>
