@@ -66,7 +66,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.8 }}
             className="mt-8 flex items-center gap-4"
           >
-            <Button href="/CV_Itokiana_Tsiorisoa_Rakotoarivelo.pdf" target="_blank" icon={<ExternalLink className="h-3.5 w-3.5" />}>
+            <Button href="./CV_Itokiana_Tsiorisoa_Rakotoarivelo.pdf" target="_blank" icon={<ExternalLink className="h-3.5 w-3.5" />}>
               Voir mon CV
             </Button>
             <Button href="#projects" icon={<ArrowDown className="h-3.5 w-3.5" />}>
