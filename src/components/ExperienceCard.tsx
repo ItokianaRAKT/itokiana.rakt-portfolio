@@ -6,7 +6,7 @@ interface ExperienceCardProps {
 
 export function ExperienceCard({ experience }: ExperienceCardProps) {
   return (
-    <div className="group rounded-md border border-border-light p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-light/40 dark:border-border-dark dark:bg-white/[0.025] dark:hover:border-primary-dark/40">
+    <div className="group relative rounded-md border border-border-light p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-light/40 dark:border-border-dark dark:bg-white/[0.025] dark:hover:border-primary-dark/40">
       <div className="mb-4 flex items-start gap-4">
         {experience.logo ? (
           <img
@@ -25,14 +25,12 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
           <p className="text-[20px] font-semibold text-text-primary-light dark:text-text-primary-dark">
             {experience.role}
           </p>
-          <div className="flex flex-col gap-0.5 md:flex-row md:items-baseline md:gap-3">
-            <p className="text-[18px] text-text-secondary-light dark:text-text-secondary-dark">
-              {experience.company}
-            </p>
-            <p className="text-[16px] text-text-secondary-light dark:text-text-secondary-dark">
-              {experience.period}
-            </p>
-          </div>
+          <p className="text-[18px] text-text-secondary-light dark:text-text-secondary-dark">
+            {experience.company}
+          </p>
+          <p className="mt-0.5 text-[16px] text-text-secondary-light dark:text-text-secondary-dark md:absolute md:right-5 md:mt-0 md:top-5">
+            {experience.period}
+          </p>
         </div>
       </div>
 
