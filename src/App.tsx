@@ -2,6 +2,7 @@ import { ThemeProvider } from './context/ThemeContext'
 import { Navbar } from './components/Navbar'
 import { Hero } from './sections/Hero'
 import { About } from './sections/About'
+import { Experience } from './sections/Experience'
 import { MainProject } from './sections/MainProject'
 import { Projects } from './sections/Projects'
 import { Skills } from './sections/Skills'
@@ -24,6 +25,7 @@ function App() {
         <main className="pt-12">
           <Hero />
           <About />
+          <Experience />
           <MainProject />
           <Projects />
           <Skills />

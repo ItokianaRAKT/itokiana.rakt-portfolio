@@ -12,7 +12,7 @@ export function Contact() {
   return (
     <section id="contact" className="border-t border-border-light dark:border-border-dark">
       <div className="mx-auto max-w-360 px-6 py-16 md:px-11 md:py-24">
-        <SectionLabel number="08" label="CONTACT" />
+        <SectionLabel number="09" label="CONTACT" />
 
         <div className="grid gap-12 md:grid-cols-2 md:gap-12">
           <motion.div
