@@ -7,34 +7,34 @@ interface ExperienceCardProps {
 export function ExperienceCard({ experience }: ExperienceCardProps) {
   return (
     <div className="group rounded-md border border-border-light p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary-light/40 dark:border-border-dark dark:bg-white/[0.025] dark:hover:border-primary-dark/40">
-      <div className="mb-4 flex items-center gap-3">
+      <div className="mb-4 flex items-center gap-4">
         {experience.logo ? (
           <img
             src={experience.logo}
             alt={experience.company}
-            className="h-8 w-8 rounded object-contain"
+            className="h-12 w-12 rounded object-contain"
           />
         ) : (
-          <div className="flex h-8 w-8 items-center justify-center rounded bg-primary-light/10 dark:bg-primary-dark/10">
-            <span className="text-[11px] font-semibold text-primary-light dark:text-primary-dark">
+          <div className="flex h-12 w-12 items-center justify-center rounded bg-primary-light/10 dark:bg-primary-dark/10">
+            <span className="text-[14px] font-semibold text-primary-light dark:text-primary-dark">
               {experience.company.charAt(0)}
             </span>
           </div>
         )}
         <div className="min-w-0 flex-1">
-          <p className="truncate text-[13px] font-semibold text-text-primary-light dark:text-text-primary-dark">
+          <p className="truncate text-[16px] font-semibold text-text-primary-light dark:text-text-primary-dark">
             {experience.company}
           </p>
-          <p className="text-[11px] text-text-secondary-light dark:text-text-secondary-dark">
+          <p className="text-[13px] text-text-secondary-light dark:text-text-secondary-dark">
             {experience.role}
           </p>
         </div>
-        <span className="shrink-0 text-[10px] text-text-secondary-light dark:text-text-secondary-dark">
+        <span className="shrink-0 text-[12px] text-text-secondary-light dark:text-text-secondary-dark">
           {experience.period}
         </span>
       </div>
 
-      <p className="mb-3 text-[13px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
+      <p className="mb-3 text-[14px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
         {experience.description}
       </p>
 
@@ -42,7 +42,7 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
         {experience.highlights.map((highlight) => (
           <li
             key={highlight}
-            className="flex items-start gap-2 text-[12px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark"
+            className="flex items-start gap-2 text-[13px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark"
           >
             <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-primary-light dark:bg-primary-dark" />
             {highlight}
