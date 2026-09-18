@@ -12,29 +12,29 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
           <img
             src={experience.logo}
             alt={experience.company}
-            className="h-12 w-12 rounded object-contain"
+            className="h-16 w-16 rounded object-contain"
           />
         ) : (
-          <div className="flex h-12 w-12 items-center justify-center rounded bg-primary-light/10 dark:bg-primary-dark/10">
-            <span className="text-[14px] font-semibold text-primary-light dark:text-primary-dark">
+          <div className="flex h-16 w-16 items-center justify-center rounded bg-primary-light/10 dark:bg-primary-dark/10">
+            <span className="text-[18px] font-semibold text-primary-light dark:text-primary-dark">
               {experience.company.charAt(0)}
             </span>
           </div>
         )}
         <div className="min-w-0 flex-1">
-          <p className="truncate text-[16px] font-semibold text-text-primary-light dark:text-text-primary-dark">
+          <p className="truncate text-[24px] font-semibold text-text-primary-light dark:text-text-primary-dark">
             {experience.company}
           </p>
-          <p className="text-[13px] text-text-secondary-light dark:text-text-secondary-dark">
+          <p className="text-[18px] text-text-secondary-light dark:text-text-secondary-dark">
             {experience.role}
           </p>
         </div>
-        <span className="shrink-0 text-[12px] text-text-secondary-light dark:text-text-secondary-dark">
+        <span className="shrink-0 text-[18px] text-text-secondary-light dark:text-text-secondary-dark">
           {experience.period}
         </span>
       </div>
 
-      <p className="mb-3 text-[14px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
+      <p className="mb-3 text-[16px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
         {experience.description}
       </p>
 
@@ -42,7 +42,7 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
         {experience.highlights.map((highlight) => (
           <li
             key={highlight}
-            className="flex items-start gap-2 text-[13px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark"
+            className="flex items-start gap-2 text-[16px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark"
           >
             <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-primary-light dark:bg-primary-dark" />
             {highlight}
