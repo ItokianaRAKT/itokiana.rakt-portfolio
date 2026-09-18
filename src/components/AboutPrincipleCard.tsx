@@ -12,7 +12,7 @@ export function AboutPrincipleCard({ principle }: AboutPrincipleCardProps) {
         <p className="text-[12px] font-semibold uppercase tracking-wider text-text-primary-light dark:text-text-primary-dark">
           {principle.title}
         </p>
-        <p className="text-[11px] text-text-secondary-light dark:text-text-secondary-dark">
+        <p className="text-[16px] text-text-secondary-light dark:text-text-secondary-dark">
           {principle.description}
         </p>
       </div>

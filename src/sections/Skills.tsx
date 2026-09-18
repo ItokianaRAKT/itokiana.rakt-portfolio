@@ -49,7 +49,7 @@ export function Skills() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-100px' }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="mt-6 max-w-[250px] text-[13px] leading-[1.6] text-text-secondary-light dark:text-text-secondary-dark"
+              className="mt-6 max-w-[250px] text-[16px] leading-[1.6] text-text-secondary-light dark:text-text-secondary-dark"
             >
               Un ensemble de technologies et d'outils que j'utilise pour concevoir,
               développer et déployer mes projets.

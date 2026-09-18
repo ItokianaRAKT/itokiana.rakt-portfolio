@@ -24,7 +24,7 @@ export function Contact() {
             <h2 className="mb-4 text-[28px] font-medium uppercase tracking-tight text-text-primary-light dark:text-text-primary-dark md:text-[34px]">
               Contactez-moi.
             </h2>
-            <p className="max-w-[200px] text-[15px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
+            <p className="max-w-[200px] text-[16px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
               Un projet, une opportunité,
               <br />
               une idée ou simplement
@@ -56,10 +56,10 @@ export function Contact() {
                     >
                       <Icon className="mt-0.5 h-4 w-4 text-text-secondary-light group-hover:text-primary-light dark:text-text-secondary-dark dark:group-hover:text-primary-dark" />
                       <div>
-                        <p className="text-[13px] font-semibold uppercase tracking-widest text-text-primary-light dark:text-text-primary-dark">
+                        <p className="text-[18px] font-semibold uppercase tracking-widest text-text-primary-light dark:text-text-primary-dark">
                           {link.label}
                         </p>
-                        <p className="text-[14px] text-text-secondary-light dark:text-text-secondary-dark">
+                        <p className="text-[16px] text-text-secondary-light dark:text-text-secondary-dark">
                           {link.value}
                         </p>
                       </div>

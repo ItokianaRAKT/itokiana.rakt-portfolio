@@ -20,7 +20,7 @@ export function MainProject() {
               TSINJO
             </p>
 
-            <p className="mb-6 text-[15px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
+            <p className="mb-6 text-[16px] leading-relaxed text-text-secondary-light dark:text-text-secondary-dark">
               Plateforme locale visant à mettre en relation les dons alimentaires et les personnes qui en ont besoin.
             </p>
 
@@ -29,7 +29,7 @@ export function MainProject() {
                 <p className="mb-1 text-[12px] font-semibold uppercase tracking-widest text-text-primary-light dark:text-text-primary-dark">
                   Problème
                 </p>
-                <p className="text-[15px] text-text-secondary-light dark:text-text-secondary-dark">
+                <p className="text-[16px] text-text-secondary-light dark:text-text-secondary-dark">
                   Des aliments encore consommables sont jetés tous les jours alors que des personnes ou structures locales pourraient en avoir besoin. Les dons restent difficiles à identifier et à mettre en relation avec les bénéficiaires.
                 </p>
               </div>
@@ -38,7 +38,7 @@ export function MainProject() {
                 <p className="mb-1 text-[12px] font-semibold uppercase tracking-widest text-text-primary-light dark:text-text-primary-dark">
                   Rôle
                 </p>
-                <p className="text-[15px] text-text-secondary-light dark:text-text-secondary-dark">
+                <p className="text-[16px] text-text-secondary-light dark:text-text-secondary-dark">
                   Développeuse fullstack
                 </p>
               </div>
@@ -47,7 +47,7 @@ export function MainProject() {
                 <p className="mb-1 text-[12px] font-semibold uppercase tracking-widest text-text-primary-light dark:text-text-primary-dark">
                   Stack
                 </p>
-                <p className="text-[15px] text-text-secondary-light dark:text-text-secondary-dark">
+                <p className="text-[16px] text-text-secondary-light dark:text-text-secondary-dark">
                   React · TypeScript · Tailwind CSS · FastAPI · Python · PostgreSQL · REST API · JWT
                 </p>
               </div>
@@ -56,7 +56,7 @@ export function MainProject() {
                 <p className="mb-1 text-[12px] font-semibold uppercase tracking-widest text-text-primary-light dark:text-text-primary-dark">
                   Statut
                 </p>
-                <p className="text-[15px] text-text-secondary-light dark:text-text-secondary-dark">
+                <p className="text-[16px] text-text-secondary-light dark:text-text-secondary-dark">
                   En développement
                 </p>
               </div>

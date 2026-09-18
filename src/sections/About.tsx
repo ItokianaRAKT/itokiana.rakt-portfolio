@@ -45,7 +45,7 @@ export function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-100px' }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="max-w-105 space-y-4 text-[13px] leading-[1.7] text-text-secondary-light dark:text-text-secondary-dark md:text-[14px]"
+              className="max-w-105 space-y-4 text-[16px] leading-[1.7] text-text-secondary-light dark:text-text-secondary-dark"
             >
 
               <p>
