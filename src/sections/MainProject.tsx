@@ -7,7 +7,7 @@ export function MainProject() {
   return (
     <section id="project" className="border-t border-border-light dark:border-border-dark">
       <div className="mx-auto max-w-360 px-6 py-16 md:px-11 md:py-24">
-        <SectionLabel number="03" label="PROJET PRINCIPAL" />
+        <SectionLabel number="04" label="PROJET PRINCIPAL" />
 
         <div className="grid gap-12 md:grid-cols-[1fr_1.5fr] md:gap-16">
           <motion.div
