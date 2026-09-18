@@ -27,7 +27,7 @@ export function Experience() {
               id="experience-title"
               className="text-[32px] font-medium leading-[1.1] text-text-primary-light dark:text-text-primary-dark md:text-[36px]"
             >
-              Bâtir, apprendre,
+              Apprendre, bâtir,
               <br />
               évoluer.
             </h2>
