@@ -25,12 +25,14 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
           <p className="text-[20px] font-semibold text-text-primary-light dark:text-text-primary-dark">
             {experience.role}
           </p>
-          <p className="text-[18px] text-text-secondary-light dark:text-text-secondary-dark">
-            {experience.company}
-          </p>
-          <p className="mt-0.5 text-[16px] text-text-secondary-light dark:text-text-secondary-dark">
-            {experience.period}
-          </p>
+          <div className="flex flex-col gap-0.5 md:flex-row md:items-baseline md:gap-3">
+            <p className="text-[18px] text-text-secondary-light dark:text-text-secondary-dark">
+              {experience.company}
+            </p>
+            <p className="text-[16px] text-text-secondary-light dark:text-text-secondary-dark">
+              {experience.period}
+            </p>
+          </div>
         </div>
       </div>
 
