@@ -25,10 +25,10 @@ export const experiences: Experience[] = [
   },
   {
     id: 'gestion-presence',
-    company: 'Gestion de présence numérique',
+    company: 'Macrotech',
     role: 'Responsable communication numérique',
     period: 'août 2026 — aujourd\'hui',
-    logo: '',
+    logo: '/macrotech.jpg',
     description:
       'Gestion de la présence numérique d\'une petite entreprise à travers la création de contenu, l\'animation des réseaux sociaux et le suivi de leurs performances.',
     highlights: [
