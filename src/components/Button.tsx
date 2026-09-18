@@ -4,6 +4,7 @@ import { type ReactNode } from 'react'
 interface ButtonProps {
   children: ReactNode
   href?: string
+  target?: string
   onClick?: () => void
   icon?: ReactNode
   variant?: 'outline' | 'solid'
@@ -13,6 +14,7 @@ interface ButtonProps {
 export function Button({
   children,
   href,
+  target,
   onClick,
   icon,
   variant = 'outline',
@@ -39,7 +41,7 @@ export function Button({
 
   if (href) {
     return (
-      <a href={href} className={classes}>
+      <a href={href} target={target} className={classes}>
         {content}
       </a>
     )
